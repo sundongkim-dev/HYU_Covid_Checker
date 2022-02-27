@@ -2,9 +2,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="script.js"></script>
+        <style>
+            body{
+                width: 400px;
+                padding: 1rem;
+            }
+            textarea{
+                width: auto;
+                font-size: 2rem;
+            }
+        </style>
     </head>
     <body>
-        <h4>한양대 포털 코로나 설문 자동 응답기</h4>
+        <h2>한양대 포털 코로나 설문 자동 응답기</h2>
+        <form>
+            <button class="btn">Click me!</button>
+            <script src = "./popup.js"></script>
+            <input type="radio" name="1" value="켜기"> 켜기
+            <input type="radio" name="2" value="끄기"> 끄기
+        </form>
     </body>
 </html>

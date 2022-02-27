@@ -1,9 +1,10 @@
 {
     "name": "HYU portal auto check",
-    "description": "My first Chrome Extension!",
-    "version": "1.0",
+    "description": "코로나 설문 자동화",
+    "version": "1.0.0",
     "manifest_version": 3,
     "action": {
+        "default_title": "코로나 설문 자동",
         "default_icon": {
             "16": "/images/icon16.png",
             "32": "/images/icon32.png",
@@ -17,5 +18,11 @@
             "32": "/images/icon32.png",
             "48": "/images/icon48.png",
             "128": "/images/icon128.png"
-    }
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "*://portal.hanyang.ac.kr/*"
+    ]
   }
